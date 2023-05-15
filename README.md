@@ -1,16 +1,27 @@
-### Hi there 👋
+#include <iostream>
+using namespace std;
 
-<!--
-**Ruchi0706/Ruchi0706** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout << i;
+            if (j != i) {
+                cout << "*";
+            }
+        }
+        cout << endl;
+    }
+    for (int i = n - 1; i >= 1; i--) {
+        for (int j = 1; j <= i; j++) {
+            cout << i;
+            if (j != i) {
+                cout << "*";
+            }
+        }
+        cout << endl;
+    }
+    return 0;
+}
