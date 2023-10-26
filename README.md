@@ -1,6 +1,5 @@
 # 💫 About Me:
-I am currently working on web development and honing my data structures and algorithms skills.<br>
-
+Hi👋, I am an final year Information Science Undergrad, a Web Developer/ Software Developer working as Intern . 
 [![An image of @ruchi0706's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ruchi0706)](https://holopin.io/@ruchi0706)
 
 ## 🌐 Socials:
